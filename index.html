@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shan go back </title>
     <style>
-        * {
+        /* * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
@@ -34,21 +34,23 @@
             top: 100px;
             text-align: center;
             color: rgb(48, 29, 4);
-        }
+        } */
     </style>
 </head>
 <body>
+    <h1 id="shan">hello</h1>
     <button class="btn" onclick="goBack()">GO BACK</button>
     <p class="p">your are Go to back tab click the button</p>
     <script>
         function goBack() {
             window.history.back();
-            console.log("fun is runing");
         }
         alert(location.href);
         if (confirm("Went to Visit Shan Ali ?")) {
             location.href = "https://www.youtube.com/channel/UCueptVwgtob4dFyObXJ-puA";
         }
+
     </script>
+    
 </body>
 </html>
